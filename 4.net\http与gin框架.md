@@ -90,3 +90,8 @@ type muxEntry struct {
 | 负载均衡   | 需第三方库              | 内置加权轮询、一致性哈希 |  
 | 熔断/限流  | 需第三方库（如hystrix-go） | 内置令牌桶、断路器       |  
 | RPC框架    | 需额外集成（如gRPC）     | 内置go-zero/zrpc         |
+
+
+参考：
+https://mp.weixin.qq.com/s?__biz=MzkxMjQzMjA0OQ==&mid=2247484040&idx=1&sn=b710f4429188ea5f49f6a9155381b67f
+https://mp.weixin.qq.com/s?__biz=MzkxMjQzMjA0OQ==&mid=2247484076&idx=1&sn=9492d326c820625700345a881b58a849
